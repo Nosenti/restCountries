@@ -1,0 +1,37 @@
+
+.container{
+
+}
+.top-utils{
+    display: flex;
+    justify-content:space-between;
+    padding: 4rem;
+    background-color: white;
+}
+.top-utils > *{
+    background-color: white;
+}
+.search-box input{
+    background-color: white;
+    height: 3rem;
+    width: 20vw;
+    padding: .5rem 2rem;
+}
+
+.filter-box select{
+    width: 10vw;
+    padding: .5rem 1rem;
+}
+
+.countries{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 4rem 2rem;
+
+    .country{
+        width: 100%;
+    }
+}
+
+

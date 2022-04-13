@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header"></header>
+    <body class="container">
+      <div class="top-utils">
+        <div class="search-box form-control">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search for a country ..."
+            id="search"
+            onkeyup="searchCountry()"
+          />
+        </div>
+        <div class="filter-box">
+          <select name="regions" id="regions">
+            <option value="all" selected>Filter By Region</option>
+            <option value="africa">Africa</option>
+            <option value="europe">Europe</option>
+            <option value="americas">America</option>
+            <option value="asia">Asia</option>
+            <option value="oceania">Oceania</option>
+          </select>
+        </div>
+      </div>
+      <div class="countries" id="countries">
+        <!-- <div class="country">
+          <a href="#">
+            <div class="country-flag">
+              <img src="https://flagcdn.com/w320/uy.png" alt="flag" />
+            </div>
+            <div class="country-info">
+              <div class="country-name">Afghanistan</div>
+              <div class="country-info__more">
+                <p>Population: 28.000.000</p>
+                <p>Region: Asia</p>
+                <p>Capital: Kabul</p>
+              </div>
+            </div>
+          </a>
+        </div> -->
+      </div>
+    </body>
+    <footer class="footer"></footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

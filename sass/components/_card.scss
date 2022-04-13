@@ -1,0 +1,26 @@
+
+.country{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 20%;
+
+    a{
+        text-decoration: none;
+        color: $color-grey-dark;
+    }
+
+    &-flag img{
+        max-width: 100%;
+    }
+    &-info{
+        padding: 1rem;
+        .country-name{
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        &__more{
+            font-size: 1.3rem;
+        }
+    }
+}
